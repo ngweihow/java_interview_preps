@@ -14,8 +14,13 @@ public class Main {
 //        System.out.println("Is "+ args[0] +" unique?");
 //        System.out.println(unique);
 
+        // Testing PrintThreads
         PrintThreads printThreads = new PrintThreads();
         printThreads.doPrintThreads();
+
+        // Testing ExtendedThread
+        Thread exThread = new ExtendedThread();
+        exThread.start();
     }
 
     public static boolean isUnique(String s) {
