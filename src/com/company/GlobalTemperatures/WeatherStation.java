@@ -21,6 +21,9 @@ public class WeatherStation implements WeatherObserver {
             System.exit(1);
         }
 
+        // Increment static city ID
+        this.cityID = cityID++;
+
         // Register City in the Satellite
         satellite.addCity(this);
     }
