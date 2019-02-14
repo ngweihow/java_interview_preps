@@ -4,6 +4,9 @@ package com.company.GlobalTemperatures;
  * Global Temperature Simulation
  * Adapted from Stock Pricing Simulation tutorial for Observer Patterns by Derek Banas
  * (http://www.newthinktank.com/2012/08/observer-design-pattern-tutorial/)
+ *
+ * Written by Ng Wei How (https://github.com/ngweihow)
+ * There are some bugs but I cant be fucked fixing them
  */
 
 import java.util.ArrayList;
