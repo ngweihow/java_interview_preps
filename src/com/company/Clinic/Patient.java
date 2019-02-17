@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Patient {
 
-    public static final int PATIENCE_LIMIT = 500;
+    public static final int PATIENCE_LIMIT = 700;
 
     private int damage;
     private int waitTime;
