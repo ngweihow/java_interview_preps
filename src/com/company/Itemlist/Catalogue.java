@@ -27,7 +27,7 @@ public class Catalogue {
         });
 
         // Print header
-
+        System.out.println("Number :               ID                |    Name     |   Quantity    ");
 
         IntStream.range(0, itemCount).forEachOrdered(n -> {
             String name = itemList.get(n).getName();
@@ -36,5 +36,16 @@ public class Catalogue {
             System.out.println(n + ": " + id + " | "+ name + " | " + quantity);
 
         });
+
+        SortBy sortBy = new SortByName();
+        sortBy.sortListBy(itemList);
+        IntStream.range(0, itemCount).forEachOrdered(n -> {
+            String name = itemList.get(n).getName();
+            String id = itemList.get(n).getId();
+            int quantity = itemList.get(n).getQuantity();
+            System.out.println(n + ": " + id + " | "+ name + " | " + quantity);
+
+        });
+
     }
 }
