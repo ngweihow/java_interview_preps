@@ -10,5 +10,5 @@ public interface SortBy {
      */
     void sortListBy(List<Item> list);
 
-    void print(List<Item> list);
+    void print(List<Item> list, int itemCount);
 }
